@@ -1,0 +1,5 @@
+name: Crypto Default Content
+type: module
+description: 'Crypto Default Content.'
+package: Custom
+core_version_requirement: ^8 || ^9

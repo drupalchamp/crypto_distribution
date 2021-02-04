@@ -1,0 +1,5 @@
+name: Crypto Markets
+type: module
+description: "It's show the markets list of a currency"
+package: Custom
+core_version_requirement: ^8 || ^9

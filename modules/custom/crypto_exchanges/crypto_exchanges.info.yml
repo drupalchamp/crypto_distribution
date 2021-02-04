@@ -1,0 +1,5 @@
+name: Crypto Exchanges
+type: module
+description: "It's show the currency list of exchanges"
+package: Custom
+core_version_requirement: ^8 || ^9
