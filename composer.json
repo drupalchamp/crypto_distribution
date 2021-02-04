@@ -72,7 +72,7 @@
             ],
             "libraries/{$name}": [
                 "type:drupal-library"
-            ],
+            ]
         },
         "patches": {
             "drupal/views_arg_order_sort": {
