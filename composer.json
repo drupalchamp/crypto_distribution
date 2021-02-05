@@ -74,6 +74,7 @@
                 "type:drupal-library"
             ]
         },
+	"enable-patching": true,
         "patches": {
             "drupal/views_arg_order_sort": {
                 "Drupal Rector fixes" : "https://www.drupal.org/files/issues/2021-01-30/views_arg_order_sort_d9_0.patch"
