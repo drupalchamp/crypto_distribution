@@ -1,3 +1,4 @@
+uuid: 86a564cd-2f82-4dc9-ab49-e93e670bbefa
 langcode: en
 status: true
 dependencies:
@@ -13,7 +14,8 @@ dependencies:
     - rest
     - serialization
     - user
-    - views_arg_order_sort
+_core:
+  default_config_hash: Nce9qPmAL8vLwbGhs2oBnJDVnLqoxmR44etO8mVZoWA
 id: top_currencies
 label: 'Top Currencies'
 module: views
@@ -21,7 +23,6 @@ description: ''
 tag: ''
 base_table: node_field_data
 base_field: nid
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -516,6 +517,8 @@ display:
           id: status
           expose:
             operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
           group: 1
         type:
           id: type
@@ -527,23 +530,10 @@ display:
           entity_field: type
           plugin_id: bundle
           group: 1
-      sorts:
-        weight:
-          id: weight
-          table: views_arg_order_sort
-          field: weight
-          relationship: none
-          group_type: group
-          admin_label: ''
-          order: ASC
-          exposed: false
           expose:
-            label: ''
-          inherit_type: 1
-          null_below: 1
-          argument_number: '0'
-          field_type: 'node_field_data::nid'
-          plugin_id: views_arg_order_sort_default
+            operator_limit_selection: false
+            operator_list: {  }
+      sorts: {  }
       header: {  }
       footer: {  }
       empty: {  }

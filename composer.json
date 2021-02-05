@@ -28,7 +28,6 @@
         "drupal/superfish": "^1.4",
         "drupal/token": "^1.9",
         "drupal/twig_tweak": "^3.0",
-        "drupal/views_arg_order_sort": "^1.x-dev",
         "drupal/bootstrap": "^3.23",
 	"drush/drush": "^10"
     },
@@ -75,11 +74,6 @@
             ]
         },
 	"enable-patching": true,
-        "patches": {
-            "drupal/views_arg_order_sort": {
-                "Drupal Rector fixes" : "https://www.drupal.org/files/issues/2021-01-30/views_arg_order_sort_d9_0.patch"
-            }
-        },
         "drupal-core-project-message": {
             "include-keys": [
                 "homepage",
