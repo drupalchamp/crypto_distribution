@@ -68,7 +68,6 @@ install:
 - superfish
 - token
 - twig_tweak
-- views_arg_order_sort
 - crypto_global
 - crypto_api_key
 - crypto_chart
