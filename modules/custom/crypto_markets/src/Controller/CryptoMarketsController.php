@@ -80,7 +80,7 @@ class CryptoMarketsController extends ControllerBase {
     $this->currentPathStack = $current_path_stack;
     $this->aliasManager = $alias_manager;
     $this->database = $database;
-    $this->entityTypeManager = $entityTypeManager;
+    $this->entityTypeManager = $entity;
     $this->configFactory = $config_factory;
     $this->httpClient = $http_client;
   }
